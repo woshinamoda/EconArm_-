@@ -2,7 +2,7 @@ clear
 clc
 
 delete(instrfindall);
-scom = 'COM5';                 %定义串口名称
+scom = 'COM10';                 %定义串口名称
 Baudrate = 921600;              %串口波特率
 b = serial(scom);
 b.InputBufferSize=2500;
